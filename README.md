@@ -24,12 +24,6 @@ This project is a RESTful API for gold trading in the Talyn platform. It enables
 
 ## Design Patterns
 
-### Repository Pattern
-The project uses the repository pattern to separate data access logic from business logic. This approach provides several benefits:
-- **Abstraction**: Hides the details of data access.
-- **Testability**: Makes it easier to unit test business logic by mocking repositories.
-- **Maintainability**: Changes to data access only affect the repository implementation.
-
 ### Service Layer Pattern
 The service layer contains the business logic and acts as an intermediate layer between controllers and repositories:
 - **Separation of Concerns**: Controllers handle HTTP requests, services handle business logic.
